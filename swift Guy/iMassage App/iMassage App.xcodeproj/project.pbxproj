@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D4B38E31F448E5100FD3EAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4B38E21F448E5100FD3EAD /* AppDelegate.swift */; };
+		2D4B38E51F448E5100FD3EAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4B38E41F448E5100FD3EAD /* ViewController.swift */; };
+		2D4B38E81F448E5100FD3EAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D4B38E61F448E5100FD3EAD /* Main.storyboard */; };
+		2D4B38EA1F448E5100FD3EAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D4B38E91F448E5100FD3EAD /* Assets.xcassets */; };
+		2D4B38ED1F448E5100FD3EAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D4B38EB1F448E5100FD3EAD /* LaunchScreen.storyboard */; };
+		2D4B38FB1F448E7A00FD3EAD /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D4B38FA1F448E7A00FD3EAD /* Messages.framework */; };
+		2D4B39071F448E7A00FD3EAD /* iMassage Exc.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2D4B38F81F448E7A00FD3EAD /* iMassage Exc.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2D4B39111F448F8D00FD3EAD /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D4B38FA1F448E7A00FD3EAD /* Messages.framework */; };
+		2D4B39141F448F8D00FD3EAD /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4B39131F448F8D00FD3EAD /* MessagesViewController.swift */; };
+		2D4B39171F448F8D00FD3EAD /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D4B39151F448F8D00FD3EAD /* MainInterface.storyboard */; };
+		2D4B39191F448F8D00FD3EAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D4B39181F448F8D00FD3EAD /* Assets.xcassets */; };
+		2D4B391D1F448F8D00FD3EAD /* iMessage Ext.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2D4B39101F448F8D00FD3EAD /* iMessage Ext.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D4B39051F448E7A00FD3EAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D4B38D71F448E5100FD3EAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D4B38F71F448E7A00FD3EAD;
+			remoteInfo = "iMassage Exc";
+		};
+		2D4B391B1F448F8D00FD3EAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D4B38D71F448E5100FD3EAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D4B390F1F448F8D00FD3EAD;
+			remoteInfo = "iMessage Ext";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2D4B390B1F448E7A00FD3EAD /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2D4B39071F448E7A00FD3EAD /* iMassage Exc.appex in Embed App Extensions */,
+				2D4B391D1F448F8D00FD3EAD /* iMessage Ext.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2D4B38DF1F448E5100FD3EAD /* iMassage App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iMassage App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D4B38E21F448E5100FD3EAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2D4B38E41F448E5100FD3EAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2D4B38E71F448E5100FD3EAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D4B38E91F448E5100FD3EAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D4B38EC1F448E5100FD3EAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2D4B38EE1F448E5100FD3EAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D4B38F81F448E7A00FD3EAD /* iMassage Exc.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "iMassage Exc.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D4B38FA1F448E7A00FD3EAD /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		2D4B39101F448F8D00FD3EAD /* iMessage Ext.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "iMessage Ext.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D4B39131F448F8D00FD3EAD /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		2D4B39161F448F8D00FD3EAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		2D4B39181F448F8D00FD3EAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D4B391A1F448F8D00FD3EAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D4B38DC1F448E5100FD3EAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D4B38F51F448E7A00FD3EAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D4B38FB1F448E7A00FD3EAD /* Messages.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D4B390D1F448F8D00FD3EAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D4B39111F448F8D00FD3EAD /* Messages.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D4B38D61F448E5100FD3EAD = {
+			isa = PBXGroup;
+			children = (
+				2D4B38E11F448E5100FD3EAD /* iMassage App */,
+				2D4B39121F448F8D00FD3EAD /* iMessage Ext */,
+				2D4B38F91F448E7A00FD3EAD /* Frameworks */,
+				2D4B38E01F448E5100FD3EAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D4B38E01F448E5100FD3EAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D4B38DF1F448E5100FD3EAD /* iMassage App.app */,
+				2D4B38F81F448E7A00FD3EAD /* iMassage Exc.appex */,
+				2D4B39101F448F8D00FD3EAD /* iMessage Ext.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D4B38E11F448E5100FD3EAD /* iMassage App */ = {
+			isa = PBXGroup;
+			children = (
+				2D4B38E21F448E5100FD3EAD /* AppDelegate.swift */,
+				2D4B38E41F448E5100FD3EAD /* ViewController.swift */,
+				2D4B38E61F448E5100FD3EAD /* Main.storyboard */,
+				2D4B38E91F448E5100FD3EAD /* Assets.xcassets */,
+				2D4B38EB1F448E5100FD3EAD /* LaunchScreen.storyboard */,
+				2D4B38EE1F448E5100FD3EAD /* Info.plist */,
+			);
+			path = "iMassage App";
+			sourceTree = "<group>";
+		};
+		2D4B38F91F448E7A00FD3EAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D4B38FA1F448E7A00FD3EAD /* Messages.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2D4B39121F448F8D00FD3EAD /* iMessage Ext */ = {
+			isa = PBXGroup;
+			children = (
+				2D4B39131F448F8D00FD3EAD /* MessagesViewController.swift */,
+				2D4B39151F448F8D00FD3EAD /* MainInterface.storyboard */,
+				2D4B39181F448F8D00FD3EAD /* Assets.xcassets */,
+				2D4B391A1F448F8D00FD3EAD /* Info.plist */,
+			);
+			path = "iMessage Ext";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D4B38DE1F448E5100FD3EAD /* iMassage App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D4B38F11F448E5100FD3EAD /* Build configuration list for PBXNativeTarget "iMassage App" */;
+			buildPhases = (
+				2D4B38DB1F448E5100FD3EAD /* Sources */,
+				2D4B38DC1F448E5100FD3EAD /* Frameworks */,
+				2D4B38DD1F448E5100FD3EAD /* Resources */,
+				2D4B390B1F448E7A00FD3EAD /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D4B39061F448E7A00FD3EAD /* PBXTargetDependency */,
+				2D4B391C1F448F8D00FD3EAD /* PBXTargetDependency */,
+			);
+			name = "iMassage App";
+			productName = "iMassage App";
+			productReference = 2D4B38DF1F448E5100FD3EAD /* iMassage App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D4B38F71F448E7A00FD3EAD /* iMassage Exc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D4B39081F448E7A00FD3EAD /* Build configuration list for PBXNativeTarget "iMassage Exc" */;
+			buildPhases = (
+				2D4B38F41F448E7A00FD3EAD /* Sources */,
+				2D4B38F51F448E7A00FD3EAD /* Frameworks */,
+				2D4B38F61F448E7A00FD3EAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iMassage Exc";
+			productName = "iMassage Exc";
+			productReference = 2D4B38F81F448E7A00FD3EAD /* iMassage Exc.appex */;
+			productType = "com.apple.product-type.app-extension.messages";
+		};
+		2D4B390F1F448F8D00FD3EAD /* iMessage Ext */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D4B391E1F448F8D00FD3EAD /* Build configuration list for PBXNativeTarget "iMessage Ext" */;
+			buildPhases = (
+				2D4B390C1F448F8D00FD3EAD /* Sources */,
+				2D4B390D1F448F8D00FD3EAD /* Frameworks */,
+				2D4B390E1F448F8D00FD3EAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iMessage Ext";
+			productName = "iMessage Ext";
+			productReference = 2D4B39101F448F8D00FD3EAD /* iMessage Ext.appex */;
+			productType = "com.apple.product-type.app-extension.messages";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D4B38D71F448E5100FD3EAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Johnny;
+				TargetAttributes = {
+					2D4B38DE1F448E5100FD3EAD = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 9NNKG45Q2D;
+						ProvisioningStyle = Automatic;
+					};
+					2D4B38F71F448E7A00FD3EAD = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 9NNKG45Q2D;
+						ProvisioningStyle = Automatic;
+					};
+					2D4B390F1F448F8D00FD3EAD = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 9NNKG45Q2D;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2D4B38DA1F448E5100FD3EAD /* Build configuration list for PBXProject "iMassage App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D4B38D61F448E5100FD3EAD;
+			productRefGroup = 2D4B38E01F448E5100FD3EAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D4B38DE1F448E5100FD3EAD /* iMassage App */,
+				2D4B38F71F448E7A00FD3EAD /* iMassage Exc */,
+				2D4B390F1F448F8D00FD3EAD /* iMessage Ext */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D4B38DD1F448E5100FD3EAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D4B38ED1F448E5100FD3EAD /* LaunchScreen.storyboard in Resources */,
+				2D4B38EA1F448E5100FD3EAD /* Assets.xcassets in Resources */,
+				2D4B38E81F448E5100FD3EAD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D4B38F61F448E7A00FD3EAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D4B390E1F448F8D00FD3EAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D4B39191F448F8D00FD3EAD /* Assets.xcassets in Resources */,
+				2D4B39171F448F8D00FD3EAD /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D4B38DB1F448E5100FD3EAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D4B38E51F448E5100FD3EAD /* ViewController.swift in Sources */,
+				2D4B38E31F448E5100FD3EAD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D4B38F41F448E7A00FD3EAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D4B390C1F448F8D00FD3EAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D4B39141F448F8D00FD3EAD /* MessagesViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D4B39061F448E7A00FD3EAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D4B38F71F448E7A00FD3EAD /* iMassage Exc */;
+			targetProxy = 2D4B39051F448E7A00FD3EAD /* PBXContainerItemProxy */;
+		};
+		2D4B391C1F448F8D00FD3EAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D4B390F1F448F8D00FD3EAD /* iMessage Ext */;
+			targetProxy = 2D4B391B1F448F8D00FD3EAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2D4B38E61F448E5100FD3EAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D4B38E71F448E5100FD3EAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2D4B38EB1F448E5100FD3EAD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D4B38EC1F448E5100FD3EAD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2D4B39151F448F8D00FD3EAD /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D4B39161F448F8D00FD3EAD /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D4B38EF1F448E5100FD3EAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D4B38F01F448E5100FD3EAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D4B38F21F448E5100FD3EAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9NNKG45Q2D;
+				INFOPLIST_FILE = "iMassage App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.johnny.iMassage-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2D4B38F31F448E5100FD3EAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9NNKG45Q2D;
+				INFOPLIST_FILE = "iMassage App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.johnny.iMassage-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2D4B39091F448E7A00FD3EAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = 9NNKG45Q2D;
+				INFOPLIST_FILE = "iMassage Exc/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.johnny.iMassage-App.iMassage-Exc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2D4B390A1F448E7A00FD3EAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = 9NNKG45Q2D;
+				INFOPLIST_FILE = "iMassage Exc/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.johnny.iMassage-App.iMassage-Exc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2D4B391F1F448F8D00FD3EAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = 9NNKG45Q2D;
+				INFOPLIST_FILE = "iMessage Ext/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.johnny.iMassage-App.iMessage-Ext";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2D4B39201F448F8D00FD3EAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = 9NNKG45Q2D;
+				INFOPLIST_FILE = "iMessage Ext/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.johnny.iMassage-App.iMessage-Ext";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D4B38DA1F448E5100FD3EAD /* Build configuration list for PBXProject "iMassage App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D4B38EF1F448E5100FD3EAD /* Debug */,
+				2D4B38F01F448E5100FD3EAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D4B38F11F448E5100FD3EAD /* Build configuration list for PBXNativeTarget "iMassage App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D4B38F21F448E5100FD3EAD /* Debug */,
+				2D4B38F31F448E5100FD3EAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2D4B39081F448E7A00FD3EAD /* Build configuration list for PBXNativeTarget "iMassage Exc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D4B39091F448E7A00FD3EAD /* Debug */,
+				2D4B390A1F448E7A00FD3EAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2D4B391E1F448F8D00FD3EAD /* Build configuration list for PBXNativeTarget "iMessage Ext" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D4B391F1F448F8D00FD3EAD /* Debug */,
+				2D4B39201F448F8D00FD3EAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D4B38D71F448E5100FD3EAD /* Project object */;
+}
