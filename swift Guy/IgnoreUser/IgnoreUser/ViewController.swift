@@ -25,7 +25,9 @@ class ViewController: UIViewController {
             else
             {
                 print("SUCCESS")
-                UIApplication.shared.endIgnoringInteractionEvents()
+                DispatchQueue.main.async {
+                    UIApplication.shared.endIgnoringInteractionEvents()
+                }
             }
         }
         task.resume()

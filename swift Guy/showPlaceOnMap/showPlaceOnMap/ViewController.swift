@@ -42,7 +42,7 @@ class ViewController: UIViewController,UISearchBarDelegate {
         
         self.view.addSubview(activityIndicator)
         
-        //Hide search bar
+        //Hide keyboard
         searchBar.resignFirstResponder()
         dismiss(animated: true, completion: nil)
         

@@ -93,7 +93,9 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
                     }
                 }
             }
-            self.pickerView.reloadAllComponents()
+            DispatchQueue.main.async {
+                self.pickerView.reloadAllComponents()
+            }
         }
         task.resume()
 

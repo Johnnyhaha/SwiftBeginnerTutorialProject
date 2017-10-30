@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+ var points:Int = 0
 class ViewController: UIViewController {
     
     let questions = ["Favorite pet?","Favorite color?","Where was I born?"]
@@ -16,11 +16,11 @@ class ViewController: UIViewController {
     //variables
     var currentQuestion = 0
     var rightAnswerPlacement:UInt32 = 0
-    var points = 0
+   
     
     //label
     @IBOutlet weak var lbl: UILabel!
-   
+       
    //button
     @IBAction func action(_ sender: AnyObject)
     {
@@ -41,7 +41,8 @@ class ViewController: UIViewController {
         else
         {
             performSegue(withIdentifier: "showScore", sender: self)
-        }
+            
+    }
     }
     
     override func viewDidAppear(_ animated: Bool)

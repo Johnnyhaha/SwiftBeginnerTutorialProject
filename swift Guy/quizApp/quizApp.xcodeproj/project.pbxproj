@@ -12,6 +12,7 @@
 		2D316DAC1F469CCC00A2F382 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D316DAA1F469CCC00A2F382 /* Main.storyboard */; };
 		2D316DAE1F469CCC00A2F382 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D316DAD1F469CCC00A2F382 /* Assets.xcassets */; };
 		2D316DB11F469CCC00A2F382 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D316DAF1F469CCC00A2F382 /* LaunchScreen.storyboard */; };
+		2D316DBB1F46E8E300A2F382 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D316DBA1F46E8E300A2F382 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		2D316DAD1F469CCC00A2F382 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D316DB01F469CCC00A2F382 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D316DB21F469CCC00A2F382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D316DBA1F46E8E300A2F382 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = ../SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				2D316DA61F469CCC00A2F382 /* AppDelegate.swift */,
 				2D316DA81F469CCC00A2F382 /* ViewController.swift */,
+				2D316DBA1F46E8E300A2F382 /* SecondViewController.swift */,
 				2D316DAA1F469CCC00A2F382 /* Main.storyboard */,
 				2D316DAD1F469CCC00A2F382 /* Assets.xcassets */,
 				2D316DAF1F469CCC00A2F382 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D316DBB1F46E8E300A2F382 /* SecondViewController.swift in Sources */,
 				2D316DA91F469CCC00A2F382 /* ViewController.swift in Sources */,
 				2D316DA71F469CCC00A2F382 /* AppDelegate.swift in Sources */,
 			);
@@ -304,6 +308,7 @@
 				2D316DB71F469CCC00A2F382 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
