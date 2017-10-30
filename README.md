@@ -3,7 +3,7 @@
 
   零基础学习iOS编程，什么都不懂，选择先从YouTube的iOS入门视频学起。从诸多iOS教学频道里选择了TheSwiftGuy，跟着视频一步步完成各种小项目，对入门iOS开发还是很有帮助的。看完截止2017年8月29日发布的所有视频。
   
-  ### 视频链接和图片:
+  ### 视频链接和图片:
   [The Swift Guy](https://www.youtube.com/channel/UC-d1NWv5IWtIkfH47ux4dWA/playlists)
   
   <img src="https://github.com/Johnnyhaha/SwiftBeginnerTutorialProject/raw/master/screenshots/屏幕快照%202017-10-30%20下午11.15.37.png" width = "50%" />
